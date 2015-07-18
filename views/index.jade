@@ -1,0 +1,37 @@
+extends layout
+
+block content
+  div(class="container-fluid")
+
+    div(class="row rowmed")
+      h3 Is My Baby Still Breathing? 
+
+    div(class="row rowsm")
+      image(src="/images/pcq8yLALi.jpg" class="separator")           
+
+    div(class="row rowmed")
+      h4 A Tool For Anxious Parents
+   
+    div(class="row rowlg")
+      -
+      each element in title
+        h1(class='quotes')= element
+
+    div(class="row rowsm")
+
+      form(method="post")
+
+        p.buttons
+          input(type="submit", value= value)
+
+
+      script(src='javascripts/jquery.min.js').
+      script(src='javascripts/script.js').
+
+    div(class="row rowsm")
+      a(href="https://www.github.com/yonatan-schultz")
+        image(src="/images/github-128-black.png" class="icon")
+      a(href="https://www.yonatanschultz.com")   
+        image(src="/images/rss-128-black.png" class="icon")
+      a(href="https://twitter.com/thegrandyoni")  
+        image(src="/images/twitter-128-black.png" class="icon")

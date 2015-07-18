@@ -1,0 +1,43 @@
+.container-fluid {
+  padding: 50px;
+  font-family: Cinzel;
+
+}
+
+.quotes {
+	display: none;
+	font-size: 72px;
+
+}
+
+.row {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.separator {
+	max-width: 7%;
+}
+
+input[type=submit] {
+  width: 9em;
+  font-size: 15px;
+  height: 2.5em;
+}
+
+.rowmed {
+	height: 15%;
+}
+
+.rowsm {
+	height: 10%;
+}
+
+.rowlg {
+    height: 50%; 
+}
+
+.icon {
+   max-height: 36px;
+   opacity: 0.4;
+}
