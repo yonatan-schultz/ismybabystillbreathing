@@ -11,8 +11,8 @@
         if (quoteIndex < quotes.length-1) {
         quotes.eq(quoteIndex % quotes.length)
             .fadeIn(2000)
-            .delay(500)
-            .fadeOut(1000, showNextQuote);
+            .delay(300)
+            .fadeOut(500, showNextQuote);
        } else {
         quotes.eq(quoteIndex % quotes.length)
             .fadeIn(2000);

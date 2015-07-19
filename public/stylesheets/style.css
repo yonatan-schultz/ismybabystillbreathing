@@ -1,6 +1,7 @@
 .container-fluid {
   padding: 50px;
   font-family: Cinzel;
+  min-width: 320;
 
 }
 
@@ -17,6 +18,7 @@
 
 .separator {
 	max-width: 7%;
+	min-width: 50px;
 }
 
 input[type=submit] {
