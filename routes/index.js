@@ -7,6 +7,11 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: ['Is My Baby Still Breathing?'], value: 'Check'});
 });
 
+/* Mobile Safari Tries to redirect to /app? */
+router.get('/app', function(req, res, next) {
+  res.render('index', { title: ['Is My Baby Still Breathing?'], value: 'Check'});
+});
+
 /*I have no idea what I'm doing */
 router.post('/', function(req, res, next) {
     
