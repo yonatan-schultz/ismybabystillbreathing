@@ -1,5 +1,5 @@
-//var newrelic = require('newrelic'),
-var express = require('express'),
+var newrelic = require('newrelic'),
+    express = require('express'),
     path = require('path'),
     favicon = require('serve-favicon'),
     logger = require('morgan'),
