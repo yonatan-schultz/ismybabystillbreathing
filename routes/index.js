@@ -4,15 +4,15 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  var header = newrelic.getBrowserTimingHeader();
-  res.write(header);	
+  //var header = newrelic.getBrowserTimingHeader();
+  //res.write(header);	
   res.render('index', { title: ['Is My Baby Still Breathing?'], value: 'Check'});
 });
 
 /* Mobile Safari Tries to redirect to /app? */
 router.get('/app', function(req, res, next) {
-  var header = newrelic.getBrowserTimingHeader();
-  res.write(header);	
+ // var header = newrelic.getBrowserTimingHeader();
+ // res.write(header);	
   res.render('index', { title: ['Is My Baby Still Breathing?'], value: 'Check'});
 });
 
